@@ -1,0 +1,229 @@
+
+#heading {position: relative;
+    font-size: 5vw;
+    right: -10vw;
+    text-align: center;
+   width: 100%;
+   display: inline;
+    overflow: visible;
+}
+
+
+#logo{
+    width: 20%;
+    height: 20%;
+    overflow: hidden;
+}
+
+
+#heading2{text-align: center;
+  right: -5vw;
+    font-size: 3vw;
+     position: relative;
+    top : 70%;
+    padding-bottom: 2vw;
+
+}
+
+h3{ text-align: center;font-size: 3vw;}
+h4{ text-align: center;font-size: 3vw;}
+label{ display: block; font-size: 2vw;
+
+}
+#form1 p { float: left; 
+           font-size: 2vw;
+           display: block;   
+}
+
+#submit1 { padding: 2vw;
+    top: 90vw;
+    right: 40vw;
+    position: absolute;
+}
+
+
+
+.responsive{
+  position: relative;
+  top:-20px;
+   overflow: visible;
+  width: 10vw;
+  height: 10vw;
+}
+
+.responsive2{
+  position: relative;
+  width: 100%;
+  height: 10vw;
+}
+
+.topnav {
+    font-size: 10vw;
+color: black;
+  overflow: hidden;
+  background-color:#00CED1 ;
+}
+
+.topnav a {
+float: left;
+  display: block;
+  color: black;
+  text-align: right;
+  padding: 8px 9px;
+  text-decoration: none;
+  font-size: 3vw;
+    right: 2vw;
+}
+
+.topnav a:hover {
+  background-color: #00CED1;
+  color: black;
+}
+
+.active {
+  background-color: #00CED1;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+
+
+
+
+footer {right: -20%;
+            color : black;
+    bottom: -400px;
+    position: relative;
+        
+}
+footer a{font-size: 20px;
+    right: 50%;
+    text-align: center;
+    color: black;
+    bottom: 100%;
+         
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+/* for smaller screens */
+.topnav a:not(:first-child) {display: none;  background-color:  #00CED1;
+}
+.topnav a.icon {
+    position: fixed;
+  float:right;
+  display: block;
+    background-color:  #00CED1;
+}
+
+}
+  
+@media screen and (max-width: 600px){
+    
+    
+body {height: 100vh;
+}
+body {
+  min-height: 100vh;
+}
+}
+@media screen and (max-width: 600px)  
+/* mobile screen size */
+{
+h3{ text-align: center;
+    font-size: 5vh;
+    top:70vh;
+}
+h4{ text-align: center;
+    font-size: 3vw;
+}   
+
+#submit1 { padding: 2vw;
+    top: 90vh;
+    right: 40vw;
+    position: absolute;
+}   
+    
+.topnav a:not(:first-child) {display: none;  background-color:#00CED1;
+}
+.topnav a.icon {
+    position: relative;
+  float:right;
+  display: block;
+    background-color:  #00CED1;
+}
+
+
+.responsive2{
+  position: relative;
+  width: 100%;
+  height: 10vw;
+}
+    
+    
+.topnav {
+  color: black;
+  overflow: visible;
+  background-color:#00CED1 ;
+}      
+   
+.topnav.responsive { 
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    float: left;
+    text-align: left;
+   
+}
+.topnav.responsive a.icon {
+    float:left;
+    display: block;
+    position: fixed;
+        background-color: #00CED1;
+        color: black;
+}
+    .topnav.responsive a {
+  float: left;
+  display: inline-flex;
+  color: black;
+  text-align: left;
+  padding: 8px 9px 40px;
+  text-decoration: none;
+  font-size: 10px;
+
+   
+}
+    
+.responsive2{display: none;
+}
+    
+
+footer {
+   font-size: 40px;
+    float:left;
+    display: inline;
+    right: -10%;
+   color : black;
+    bottom: -400px;
+    position: relative;
+        
+}
+    
+footer a{font-size: 10px;
+display: inline;
+right: -30%;
+text-align: center;
+color: black;
+bottom: 100%;
+}
+
+}
+

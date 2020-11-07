@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+    <head>
+       <title>The OU Walking Club home page</title>
+        <meta name="viewport" content="width=device-width, inital-scale=1">
+         
+        <meta charset="UTF-8" >
+         <link rel="stylesheet" href="https://ms29338.tt284.open.ac.uk/emafiles/MS29338_q2_OUwalk.css">
+         <link rel="stylesheet" href="MS29338_q2_OUwalk.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+      <header>
+
+<div id="heading"> The Open University Walking Club </div>
+<div id="heading2"> From beginners to expert. All are welcome.</div>
+<img src="oulogo.png" alt="The Open Univeristy logo" class="responsive">
+</header>
+
+      <div class="topnav" id="myTopnav">
+
+        <a href="http://www9.open.ac.uk/OURC/" class="active">| Home</a>
+        <a href="http://www9.open.ac.uk/OURC/" >| News</a>
+        <a href="http://www9.open.ac.uk/OURC/" >| Work Diary</a>
+        <a href="http://www9.open.ac.uk/OURC/" >| Walk Reviews</a>
+        <a href="http://www9.open.ac.uk/OURC/" >| Other Events</a>
+        <a href="http://www9.open.ac.uk/OURC/" >| Sign Up |</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<img src="hiking2.jpg" alt="landscape scene of forrests" class="responsive2">
+
+
+
+
+      <script>
+      function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+              x.className += " responsive";
+          } else {
+              x.className = "topnav";
+          }
+      }
+      </script>
+        
+        <h3> Propose A Walk Form</h3>
+        <h4>Please use the form below to enter a proposal for a new walk</h4>
+        
+        <form method="post" action="http://students.open.ac.uk/mct/tt284/reflect/reflect.php" id="form1" name="form1">
+            <input type="hidden" name="sessionID" value="ABCDEF012345" />
+				<p><label>Name of walk :</label>
+				<input type="text" required name="Name of Walk" id="mytext1" placeholder="walk name" maxlength="100" minlength="5" value=""></p>
+            
+            <p><label>Date :</label>
+				<input type="date" required id="mytext2" name="Start date"></p>
+            <p><label>Start Time :</label>
+				<input type="time" required name="Starting Time" id="mytext3" ></p>
+            <p><label>Meeting Point :</label>
+				<input type="text" required name="Coordinates" id="mytext4" placeholder="Coordinates" maxlength="100" minlength="5" value=""></p>
+            <p><label>Distance (in Miles) :</label>
+				<input type="text" required name="Distance of walk" id="mytext5" placeholder="length of walk" maxlength="100" minlength="5" value=""></p>
+            <p><label>Route Description :</label>
+				<input type="text" required name="Description of route" id="mytext6" placeholder="Route description" maxlength="100" minlength="5" value=""></p>
+            <p><label>Extra Notes :</label>
+                <textarea id="txtArea" name="Extra notes" rows="5" cols="20" placeholder="Extra notes here"></textarea></p>
+            
+              <input type="submit" id="submit1" name="submit1" value="Submit">
+        
+          
+       
+        </form>
+        
+        
+        
+        
+        
+        
+  <footer>
+
+          <a href="http://about.html">|   About this website</a>
+          <a href="http://copyright.html">  | Copyright notice |</a>
+          <a href="http://sitemap.html">  Sitemap |</a>
+
+    </footer>
+</body>
+</html>
